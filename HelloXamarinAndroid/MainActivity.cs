@@ -12,7 +12,6 @@ namespace HelloXamarinAndroid
     [Activity (Label = "HelloXamarinAndroid", MainLauncher = true)]
     public class Activity1 : Activity
     {
-        int count = 1;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -26,9 +25,15 @@ namespace HelloXamarinAndroid
             var button = FindViewById<Button>(Resource.Id.myButton);
 			
             button.Click += (sender, e) => 
-            { 
-                button.Text = string.Format("{0} clicks!", count++); 
-            }
+            {
+                var card = new Card("amay", "987-654-3321");
+
+                // Goto NextActivity
+                var intent = new Intent(this, typeof(NextActivity));
+                intent.PutExtra("card", card); // intent に Card を詰める
+
+                this.StartActivity(intent);
+            };
         }
     }
 }

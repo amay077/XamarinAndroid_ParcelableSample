@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloXamarinAndroid/Card.cs">
+    <Files>
+      <File FileName="HelloXamarinAndroid/MainActivity.cs" Line="31" Column="37" />
+      <File FileName="HelloXamarinAndroid/Resources/values/Strings.xml" Line="1" Column="1" />
+      <File FileName="HelloXamarinAndroid/Card.cs" Line="53" Column="48" />
+      <File FileName="HelloXamarinAndroid/NextActivity.cs" Line="26" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.HelloXamarinAndroid MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="SHTBG088318" />
+</Properties>

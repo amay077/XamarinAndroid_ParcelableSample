@@ -21,6 +21,13 @@ namespace HelloXamarinAndroid
             base.OnCreate(bundle);
 
             // Create your application here
+
+            var card = this.Intent.GetParcelableExtra("card") as Card;
+
+            // Show toast
+            Toast.MakeText(this, 
+                String.Format("name:{0}, phone:{1}", card.Name, card.Phone), 
+                ToastLength.Long).Show();
         }
     }
 }
